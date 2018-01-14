@@ -1,0 +1,13 @@
+.render-container {width:100%;}
+.render-container header {display:block;text-align:center;margin-top:40px;}
+.loader-area {width:100%;text-align:center;margin-top:50px;}
+table.table {margin-top:30px;}
+.listed {display:none;}
+.listed.active {display:table-row;}
+.listed.child-0 td {background:#ECECEC;}
+.listed.child-1 td {background:#ECF0F1;}
+.listed.child-2 td {background:#DADFE1;}
+.listed.child-3 td {background:#BDC3C7;}
+.listed.child-4 td {background:#ABB7B7;}
+.action-button {display:inline-block;background-image:url(../img/down-arrow.svg);width:16px;height:16px;background-size:100%;cursor:pointer;margin-top:5px;}
+.action-button.active {transform: rotate(-180deg);}
