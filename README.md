@@ -6,7 +6,7 @@ Checkout this repo, install dependencies, then start the gulp process with the f
 
 ```
 > git clone https://github.com/zaferkaymak/reactjs-collapse-example.git
-> cd ReduxSimpleStarter
+> cd reactjs-collapse-example
 > npm install
 > npm start
 ```
