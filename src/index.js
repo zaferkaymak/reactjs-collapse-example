@@ -12,6 +12,8 @@ class Main extends Component {
         this.state = {
             list : []
         }
+    }
+    componentDidMount(){
         const dataListURL = "https://gist.githubusercontent.com/burakcan/ca77e8fc11a1455cc1962ad7318b8fbc/raw/b446a09888882df7273f17d2ff7ebf4820de4152/dataset.json"; 
         this.getDataList(dataListURL);
     }
